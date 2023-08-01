@@ -5,5 +5,7 @@ public class Hello_name {
         System.out.print("Inter a name: ");
         String name = scanner.nextLine();
         System.out.print("Hello: " + name);
+        int age = scanner.nextLine();
+        System.out.print("How old a you? " + age)
     }
 }
