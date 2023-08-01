@@ -4,8 +4,8 @@ public class Hello_name {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Inter a name: ");
         String name = scanner.nextLine();
-        System.out.print("Hello: " + name);
-        int age = scanner.nextLine();
-        System.out.print("How old a you? " + age)
+        System.out.print("How old a you? ");
+        int age = scanner.nextInt();
+        System.out.print("Hello " + name + " " + age);
     }
 }
